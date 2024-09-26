@@ -1,1 +1,7 @@
-print('Hello, World!')
+#Tany Soto
+#My first Python lab in my CIS129 course
+#Prints a simple short story
+
+print("A hero will always fight and never give up")
+print("Which inspires others to never give up")
+print("Everyone can be a hero and never give uo")
