@@ -1,1 +1,17 @@
+print('number of coffee')
+A = input('')
+print('number of muffins')
+B = input('')
+C = int(A)*5
+D = int(B)*4
+T = 0.06*(C+D)
+L = C+D+T
+print('**********')
+print('Muffins and stuff')
+print(A,'Coffee at 5$ each:$', C)
+print(B,'Muffins at $4 each:$', D)
+print('6% tax:$', T)
+print('-------')
+print('Total $',L)
+
 
