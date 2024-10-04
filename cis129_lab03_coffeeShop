@@ -21,5 +21,7 @@ Print(E,'pastrys at $3 each:$',Pas)
 print('6% tax:$', T)
 print('-------')
 print('Total $',L)
+print('**********')
+print('Thank you for your purchase please come again')
 
 
