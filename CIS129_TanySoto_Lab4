@@ -1,0 +1,55 @@
+# The main function
+def main():
+# declare local variables
+monthlySales = # monthly sales amount
+ storeAmount = # store bonus amount
+ empAmount = # employee bonus amount
+ salesIncrease = # percent of sales increase
+# call to getSales( monthlySales)
+# call to getIncrease( monthlySales)
+# call to calcStoreBonus( monthlySales)
+# call to calcEmpBonus( salesIncrease)
+# call to printBonus( storeAmount,empAmount )
+# This function gets the monthly sales
+def getSales(prompt):
+ monthlySales = float(input(prompt))
+ return monthlySales
+
+# This function gets the percent of increase in sales
+def getIncrease(prompt):
+salesIncrease = float(input(getIncrease(storeAmount) ))
+salesIncrease = salesIncrease / 100
+return salesIncrease # This function determines the storeAmount bonus
+def calcStoreBonus(monthlySales):
+if monthlySales >= 110000:
+storeAmount = 6000
+elif : monthlySales >= 100000 and monthlySales < 110000:
+  storeAmount = 5000
+elif : monthlySales >= 90000 and monthlySales <100000:
+  storeAmount = 4000
+elif : monthlySales >= 80000 and monthlySales <90000:
+  storeAmount = 3000
+else: storeAmount = 0
+return storeAmount
+# This function determines the empAmount bonus
+def calcEmpBonus(getIncrease(storeAmount) ):
+if salesIncrease >= .05:
+empAmount = 75
+elif salesIncrease >= 0.4:
+empAmount = 50
+elif salesIncrease >= 0.3:
+empAmount = 40 
+else: 
+empAmount = 0
+return empAmount
+# This function prints the bonus information
+def printBonus(calcEmpBonus(empAmount) , calcStoreBonus(storeAmount)):
+print("The store bonus amount is $", storeAmount )
+print("The employee bonus amount is $", empAmount )
+if (storeAmount == 6000 ) and (empAmount == 75):
+print('Congrats! You have reached the highest bonus amounts
+possible! ')
+
+# calls main
+main()
+
